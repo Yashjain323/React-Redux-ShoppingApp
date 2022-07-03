@@ -20,8 +20,10 @@ const ProductListing = () => {
     },[])
     //console.log(products);
 return(
+        <div className="myCard">
         <div className="ui grid container">
             <ProductComponent/>
+        </div>
         </div>
     )
 }
